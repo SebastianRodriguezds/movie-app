@@ -1,5 +1,5 @@
 // En '/src/data/httpClient.jsx'
-const apiKey = '210ebfb1d744fbcc3553bbf7429beaf0'; // Reemplaza con tu clave de API válida
+const apiKey = '210ebfb1d744fbcc3553bbf7429beaf0'; 
 
 export function get(path) {
   const url = `https://api.themoviedb.org/3${path}?api_key=${apiKey}`;
